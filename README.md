@@ -1,6 +1,15 @@
-<<<<<<< HEAD
+# Info
+Picture sharing site for friends to share and comment on each others posts. 
+Comments will 'bump" a post to the top of the feed
+If no one comments on a post it will disappear once a post goes below 6th position. 
+Unique post number everytime a new post is made.
+
+# Live Test Build
+
+
+https://memeapp-react.web.app/#
+
 # react-web-app
-=======
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -71,4 +80,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> master
+
