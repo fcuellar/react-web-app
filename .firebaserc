@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "memeapp-react",
+    "bugfixing": "memeapp-react"
+  }
+}

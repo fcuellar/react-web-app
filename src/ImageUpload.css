@@ -1,0 +1,27 @@
+.imageUploadBack{
+
+  display:flex;
+  background-color: #fafafa;
+  position:sticky;
+  bottom:0;
+}
+.imageupload{
+
+  flex-direction: column;
+  width:40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10px;
+  margin-bottom: 5px;
+  display: flex;
+  padding:1px;
+
+
+}
+
+.imageupload_progress{
+  width:100%;
+}
+.file_button{
+  flex:0;
+}

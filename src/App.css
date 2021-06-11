@@ -1,4 +1,6 @@
-
+html{
+   scroll-snap-type: y mandatory;
+}
 /* #removes top margin */
 *{
   margin: 0;
@@ -6,13 +8,65 @@
 
 .App{
   background-color: #fafafa;
-  
+
 
 }
 
 .app__header {
+  position:sticky; 
+  top:0;
+  z-index: 99999;
   object-fit: contain;
   background-color: white;
-  padding: 20px;
+  padding: 1px;
+  padding-bottom: 1px;
+
   border-bottom: 1px solid lightgrey;
+  display:flex;
+  justify-content: space-between;
+}
+.app__headerImage{
+  object-fit: contain;
+  width:10%;
+  max-width:100px;
+  height:auto;
+  max-height: 100px;
+  z-index:1;
+}
+.app_loggedInNav{
+  display:flex;
+  margin-top: 8px;
+
+}
+.app_user{
+  margin-right:auto;
+  color:white;
+  padding-top: 8px;
+  padding-right:5px;
+
+}
+.app_navIcon{
+  background-color: var(--bg);
+}
+
+.app_signup{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.app_posts{
+  padding:10px;
+   /* scroll-snap-type: y mandatory;
+  position: relative;
+  overflow: scroll;
+  scroll-snap-align: start; */
+
+}
+.app_postRow{
+  /* height: 700px; */
+
+}
+.app_posts::-webkit-scrollbar{
+  display:none;
 }
